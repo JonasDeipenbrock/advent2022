@@ -1,7 +1,6 @@
 from typing import List
 import re
 
-
 def get_input():
     with open("./input.txt", "r") as f:
         return f.readlines()
@@ -68,7 +67,6 @@ def load_stacks(input: List[str]):
                 if not token == " ":
                     sub_stack.append(input[idx][index])
             stack.append(sub_stack)
-
     return stack
 
 
