@@ -1,4 +1,3 @@
-# fmt: off
 with open("./input.txt", "r") as f:
     contained, overlapped = 0, 0
     for line in f.readlines():
