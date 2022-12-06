@@ -3,15 +3,15 @@ def get_input():
         return f.readlines()
 
 
-def solve_a(i):
+def solve_a(input):
     pass
 
 
-def solve_b(i):
+def solve_b(input):
     pass
 
 
 if __name__ == "__main__":
-    i = get_input()
-    solve_a(i)
-    solve_b(i)
+    input = get_input()
+    solve_a(input)
+    solve_b(input)
