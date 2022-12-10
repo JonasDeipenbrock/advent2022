@@ -1,13 +1,16 @@
+from typing import List
+
+
 def get_input():
     with open("./input.txt", "r") as f:
         return f.readlines()
 
 
-def solve_a(input):
+def solve_a(input: List[str]):
     pass
 
 
-def solve_b(input):
+def solve_b(input: List[str]):
     pass
 
 
